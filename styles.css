@@ -1,3 +1,39 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+/* hero */
+
+.top {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none; /* remove bullet points */
+}
+
+a {
+    text-decoration: none; /* remove link underline */
+    color: #E5E7EB;
+    font-size: 18px;
 }
