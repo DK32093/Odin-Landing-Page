@@ -73,10 +73,13 @@ a, .subtext {
     font-size: 18px;
 }
 
-img {
+.top-image {
     width: 530px;
     height: 225px;
 }
 
 /* Second section */
 
+.info-header {
+    font-size: 36px;
+}
