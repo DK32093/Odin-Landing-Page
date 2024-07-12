@@ -5,6 +5,12 @@
     font-family: Roboto, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* hero */
 
 .top {
@@ -49,7 +55,6 @@ a, .subtext {
     gap: 20px;
     padding-top: 125px;
     padding-bottom: 125px;
-    flex: 1;
 }
 
 .main-text {
@@ -64,7 +69,7 @@ a, .subtext {
     padding-bottom: 10px;
 }
 
-.signupT {
+.signup {
     background-color: #3882f6;
     color: white;
     padding: 10px 30px;
@@ -96,7 +101,6 @@ a, .subtext {
     width: 160px;
     height: 160px;
     border-radius: 10px;
-    flex: 1;
 }
 
 .paired-groups {
@@ -137,3 +141,43 @@ a, .subtext {
     width: 825px;
 }
 
+/* Section 4 - Call to action */
+
+.section4 {
+    background-color: white;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.top-text {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom-text {
+    font-size: 20px;
+    color: white;
+}
+
+.outline {
+    border: white solid 3px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
