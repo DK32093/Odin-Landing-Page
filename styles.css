@@ -40,7 +40,7 @@ a, .subtext {
     font-size: 18px;
 }
 
-/* -hero content left */
+/* -hero content */
 
 .hero-content {
     display: flex;
@@ -49,6 +49,7 @@ a, .subtext {
     gap: 20px;
     padding-top: 125px;
     padding-bottom: 125px;
+    flex: 1;
 }
 
 .main-text {
@@ -59,7 +60,7 @@ a, .subtext {
 }
 
 .subtext {
-    width: 455px;
+    width: 440px;
     padding-bottom: 10px;
 }
 
@@ -73,6 +74,9 @@ a, .subtext {
 }
 
 img {
-    width: 430px;
-    height: 200px;
+    width: 530px;
+    height: 225px;
 }
+
+/* Second section */
+
