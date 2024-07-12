@@ -80,6 +80,32 @@ a, .subtext {
 
 /* Second section */
 
+.section2 {
+    background-color: white;
+}
+
 .info-header {
     font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 60px;
 }
+
+.cookies {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.paired-groups {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.pair {
+    width: 160px; /* match width of text with cookies images */
+}
+
