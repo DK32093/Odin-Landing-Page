@@ -96,6 +96,7 @@ a, .subtext {
     width: 160px;
     height: 160px;
     border-radius: 10px;
+    flex: 1;
 }
 
 .paired-groups {
@@ -103,9 +104,36 @@ a, .subtext {
     text-align: center;
     justify-content: center;
     gap: 60px;
+    padding-bottom: 120px;
 }
 
 .pair {
     width: 160px; /* match width of text with cookies images */
+}
+
+/* Quote section (3) */
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.credit {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.quote-combo {
+    width: 825px;
 }
 
