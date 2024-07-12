@@ -5,12 +5,6 @@
     font-family: Roboto, sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 /* hero */
 
 .top {
@@ -107,6 +101,7 @@ a, .subtext {
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
     padding-bottom: 120px;
 }
@@ -178,6 +173,8 @@ a, .subtext {
     background-color: #1F2937;
     color: white;
     font-size: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
